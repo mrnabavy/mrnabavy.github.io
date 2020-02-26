@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+}
+
+
+.latestUpdates {
+    right: 0;
+    text-align: right;
+    position: fixed;
+    display: inherit;
+    width: 280px;
+    height: 100%;
+    background-color: darkturquoise;
+    padding: 0 0;
+    top: 155px;
+}
+
+.latestUpdates h2 {
+    right: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 25px; 
+    margin-top: 28px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.latestUpdates ul li {
+    margin-left: 10px;
+    text-align: left;
+    padding: 0;
+    line-height: 15px;
+}
+
+.latestUpdates ul li img {
+    margin-right: 10px;
+    padding: 0;
+    color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.latestUpdates ul li a {
+    padding: 0;
+    margin: 16px 20px 10px 0;
+    color: darkslategrey;
+    display: inline-block;
+    
+    position: fixed;
+    
+}
+
+.latestUpdates ul li:hover {
+    
+    background: lightgreen;
+}
+
+.latestUpdatsContainer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    /*transform: translateX(-50%);*/
+}
+
+
+
+
+
+
+
+
+.categories {
+    display: flex;
+    position: inherit;
+}
+
+.nameTitle {
+    position: inherit;
+    display: block;
+    height: 155px;
+    width: 250px;
+    padding: 0;
+    top: 0;
+    margin-bottom: 30px;
+    
+}
+
+.sideBar {
+    position: fixed;
+    display: inherit;
+    width: 250px;
+    height: 100%;
+    background-color: darkturquoise;
+    padding: 0 0;
+    top: 155px;
+}
+
+.sideBar h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px; 
+    margin-top: 28px;
+}
+
+.sideBar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.5)
+    border-bottom: 1px solid rgba(225,225,225,0.5)
+}
+
+.sideBar ul li a {
+    color: black;
+    display: block;
+}
+
+.sideBar ul li:hover {
+    background: #594f8d;
+}
+
+.sideBar > div {
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    display: inline-flex;
+    /*transform: translateX(-50%);*/
+}
+
+.socialMedia > a {
+    display: block;
+    width: 60px;
+    background: #594f8d;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    color: aliceblue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+body {
+    background-color: #f3f5f9;
+}
+
+.header {
+    
+    height: 155px;
+    width: 99%;
+    padding: 0px;
+    margin: 0px; 
+    margin-left: 250px;
+    display: block;
+    position: inherit;
+}
+
+.Title {
+    clear: both;
+    height: 150px;
+    width: 40%;
+    padding: 5px;
+    margin: 3px 0 3px 0;
+    position: inherit;
+    border-radius: 10px;
+    display: inherit;
+}
+
+.search {
+    height: 50px;
+    width: 35%;
+    padding: 20px;
+    margin: 10px 0px 10px 0;
+    border-radius: 10px;
+    display: inherit;
+    position: fixed;
+    top: 60px;
+    right: 0;
+}
+
+.inputSearch {
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 17px;
+    height: 40px;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    font-style: italic;
+}
+
+.inputSearch:hover {
+    background-color: beige;
+}
+
+.searchButton {
+    border-radius: 8px;
+    height: 40px;
+    width: 27%;
+    padding: 10px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.searchButton:hover {
+    background-color: aqua;
+}
+
+.membership {
+    background-color: lightgreen;
+    position: fixed;
+    width: 37%;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 0 0 0;
+    padding: 10px 5px 5px 5px;
+}
+
+.membership:hover {
+    background-color: aqua;
+}
+
+.container {
+    display: block
+}
+
+.container ul li {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+    width: 23%;
+    position: inherit;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container ul li:hover {
+    background-color: chartreuse;
+}
+
+.container ul li a {
+    font-size: 17px;
+    padding: 10px;
+    margin: 0 5px 0 5px;
+}
+
+.JokerFilm {
+    font-size: 25px;
+    width: 40%;
+    margin: 20px 20px 0px 255px; 
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+}
+
+.headerJokerFilm {
+    background-color: lightgreen;
+    display: inline-block;
+    position: inherit;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.JokerContainer {
+    background-color: azure;
+    border: solid 2px blue;
+    display: block;
+    position: inherit;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    top: 20px;
+}
+
+.headerJokerFilm > h2 {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    position: inherit;
+    background: lightgreen;
+    display: inline-block;
+}
+
+.headerJokerFilm > h3 {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    position: inherit;
+    display: inline-block;
+    background: lightgreen;
+    
+}
+
+.JokerContainer > img {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    position: inherit;
+    width: 100%;
+}
+
+.JokerContainer > p {
+    padding: 15px;
+    margin: 15px 0 15px 0;
+    display: inline-block;
+    width: 100%;
+    position: inherit;
+    line-height: 30px;
+    
+}
+
+.footerJokerFilm {
+    background: lightgreen;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100%;
+    display: inline-block;
+    position: inherit;
+}
+
+.downloadJokerFilm {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footerSocial {
+
+    display: block;
+    position: inherit;
+}
+
+.likeJokerFilm {
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.commentJokerFilm {
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;  
+}
+
